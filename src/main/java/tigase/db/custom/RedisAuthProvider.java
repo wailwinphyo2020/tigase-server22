@@ -54,11 +54,6 @@ public class RedisAuthProvider implements AuthRepository {
         return new SingleCredential(user, getAccountStatus(user), entry);
     }
 
-    public static void main(String args[]){
-        RedisAuthProvider provider = new RedisAuthProvider();
-        provider.getUserInfoByToken("Hello");
-    }
-
     private String getUserInfoByToken(String plain) {
         try {
             logger("Redis " + datasource);

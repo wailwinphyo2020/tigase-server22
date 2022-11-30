@@ -475,7 +475,7 @@
         <dependency>
             <groupId>org.redisson</groupId>
             <artifactId>redisson</artifactId>
-            <version>3.18.0</version>
+            <version>3.6.1</version>
         </dependency>
 
     </dependencies>
